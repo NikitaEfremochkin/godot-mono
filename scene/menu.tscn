@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://script/But.cs" type="Script" id=1]
+[ext_resource path="res://sprite/play.png" type="Texture" id=2]
+[ext_resource path="res://scene/sky.tscn" type="PackedScene" id=3]
+
+[node name="menu" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 433.0
+margin_top = 228.0
+margin_right = 569.0
+margin_bottom = 362.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+expand_icon = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+sky = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="Button"]
+margin_left = 65.099
+margin_top = -90.421
+margin_right = 65.099
+margin_bottom = -76.421
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sky" type="Timer" parent="Button"]
+wait_time = 3.0
+autostart = true
+[connection signal="pressed" from="Button" to="Button" method="pressed"]
+[connection signal="timeout" from="Button/sky" to="Button" method="timeout"]

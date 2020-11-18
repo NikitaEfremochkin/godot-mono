@@ -1,0 +1,8 @@
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\bin\Debug\2platform.dll
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\bin\Debug\2platform.pdb
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\obj\Debug\2platform.csprojAssemblyReference.cache
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\obj\Debug\2platform.csproj.CoreCompileInputs.cache
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\obj\Debug\2platform.AssemblyInfoInputs.cache
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\obj\Debug\2platform.AssemblyInfo.cs
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\obj\Debug\2platform.dll
+C:\Users\375333307002 Никита\OneDrive\Документы\2platform\.mono\temp\obj\Debug\2platform.pdb
